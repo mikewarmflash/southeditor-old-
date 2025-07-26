@@ -1,0 +1,155 @@
+/* 全局样式 */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+select {
+    background: #ffffee;
+    font: 8px verdana, arial, sans-serif;
+}
+
+/* 工具栏容器使用 Flexbox 布局 */
+.yToolbar {
+    display: flex;
+    background-color: #ffffee;
+    border-right: 1px solid #ffffee;
+    height: 27px;
+    align-items: center;
+}
+
+/* 按钮容器 */
+.btn-container {
+    display: flex;
+    align-items: center;
+}
+
+.Btn {
+    background-color: #ffffee;
+    border: 1px solid #ffffee;
+    height: 21px;
+    width: 21px;
+    margin: 0 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TBSep {
+    border-left: 1px solid #c5d5fc;
+    border-right: 1px solid #ffffee;
+    font-size: 0;
+    height: 20px;
+    width: 1px;
+    margin: 0 2px;
+}
+
+.TBGen {
+    font: 8px arial, sans-serif;
+    height: 20px;
+    margin: 0 2px;
+}
+
+.TBHandle {
+    background-color: #ffffee;
+    border: 1px solid #ffffee;
+    font-size: 1px;
+    height: 20px;
+    width: 3px;
+    margin: 0 2px;
+}
+
+.Ico {
+    height: 20px;
+    width: 20px;
+}
+
+.BtnMouseOverUp,
+.BtnMouseOverDown {
+    background-color: #c9d3ef;
+    border: 1px solid #255df3;
+    height: 21px;
+    width: 21px;
+    margin: 0 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BtnDown {
+    background-color: #dcdcdc;
+    border: 1px solid #ffffee;
+    height: 21px;
+    width: 21px;
+    margin: 0 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.IcoDown {
+    height: 21px;
+    width: 21px;
+}
+
+.IcoDownPressed {
+    margin: 1px;
+}
+
+/* 上下文菜单部分 */
+.ContextMenuDiv {
+    border-top: 1px solid #d4d0c8;
+    border-left: 1px solid #d4d0c8;
+    border-bottom: 1px solid #808080;
+    border-right: 1px solid #808080;
+}
+
+.ContextMenuTable {
+    border-top: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    border-bottom: 1px solid #808080;
+    border-right: 1px solid #808080;
+}
+
+.ContextMenuMouseOver {
+    background-color: #0078d7;
+    color: #ffffff;
+    font-size: 12px;
+    cursor: default;
+}
+
+.ContextMenuMouseOut {
+    background-color: #d4d0c8;
+    color: #000000;
+    font-size: 12px;
+    cursor: default;
+}
+
+.ContextMenuLeftBg {
+    background-color: #0072bc;
+}
+
+/* 状态栏部分 */
+TABLE.StatusBar {
+    border-right: 1px solid #ffffee;
+    border-bottom: 1px solid #ffffee;
+    background-color: #ffffee;
+}
+
+TD.StatusBarBtnOff {
+    padding: 1px 5px;
+    border: 1px outset;
+    cursor: pointer;
+}
+
+TD.StatusBarBtnOn {
+    padding: 1px 5px;
+    border: 1px inset;
+    background-color: #eeeeee;
+}

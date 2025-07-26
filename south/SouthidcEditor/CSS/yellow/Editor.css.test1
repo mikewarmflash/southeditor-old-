@@ -1,0 +1,175 @@
+/* 使用小写属性名 */
+.yToolbar {
+  /* 如果需要样式，在此添加 */
+}
+
+table.toolbar {
+  border-right: 1px solid #ffffee;
+}
+
+table.toolbar td {
+  background-color: #ffffee;
+  border-bottom: 1px solid #ffffee;
+  border-right: 1px solid #ffffee;
+  border-top: 1px solid #ffffee;
+  height: 27px;
+  left: 0;
+  position: relative;
+  top: 0;
+}
+
+.btn {
+  background-color: #ffffee;
+  border: 1px solid #ffffee;
+  height: 21px;
+  position: absolute;
+  top: 1px;
+  width: 21px;
+}
+
+.tbsep {
+  border-left: 1px solid #c5d5fc;
+  border-right: 1px solid #ffffee;
+  font-size: 0;
+  height: 20px;
+  position: absolute;
+  top: 1px;
+  width: 1px;
+}
+
+.tbgen {
+  font: 8px arial, sans-serif; /* 使用 px 作为字体单位 */
+  height: 20px;
+  position: absolute;
+  top: 2px;
+}
+
+.tbhandle {
+  background-color: #ffffee;
+  border: 1px solid #ffffee;
+  font-size: 1px;
+  height: 20px;
+  position: absolute;
+  top: 1px;
+  width: 3px;
+}
+
+.ico {
+  height: 20px;
+  left: -1px;
+  position: absolute;
+  top: -1px;
+  width: 20px;
+}
+
+/* 提取公共样式 */
+.btn-mouse-over {
+  background-color: #c9d3ef;
+  border: 1px solid #255df3;
+  height: 21px;
+  position: absolute;
+  top: 1px;
+  width: 21px;
+}
+
+.btn-mouse-over-up {
+  /* 可以添加独特样式 */
+}
+
+.btn-mouse-over-down {
+  /* 可以添加独特样式 */
+}
+
+.btn-down {
+  background-color: #dcdcdc;
+  border: 1px solid #ffffee;
+  height: 21px;
+  position: absolute;
+  top: 1px;
+  width: 21px;
+}
+
+.ico-down {
+  height: 21px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 21px;
+}
+
+.ico-down-pressed {
+  left: 1px;
+  position: absolute;
+  top: 1px;
+}
+
+body {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+select {
+  background: #ffffee;
+  font: 8px verdana, arial, sans-serif; /* 使用 px 作为字体单位 */
+}
+
+table {
+  position: relative;
+}
+
+.composition {
+  background-color: #cccccc;
+  position: relative;
+}
+
+/* 使用标准颜色代码替代旧版颜色名称 */
+.context-menu-div {
+  border-top: 1px solid #d4d0c8; /* 假设 buttonface 颜色为 #d4d0c8 */
+  border-left: 1px solid #d4d0c8;
+  border-bottom: 1px solid #808080; /* 假设 windowframe 颜色为 #808080 */
+  border-right: 1px solid #808080;
+}
+
+.context-menu-table {
+  border-top: 1px solid #ffffff; /* 假设 window 颜色为 #ffffff */
+  border-left: 1px solid #ffffff;
+  border-bottom: 1px solid #808080; /* 假设 buttonshadow 颜色为 #808080 */
+  border-right: 1px solid #808080;
+}
+
+.context-menu-mouse-over {
+  background-color: #0078d7; /* 假设 highlight 颜色为 #0078d7 */
+  color: #ffffff; /* 假设 highlighttext 颜色为 #ffffff */
+  font-size: 12px;
+  cursor: default;
+}
+
+.context-menu-mouse-out {
+  background-color: #d4d0c8; /* 假设 buttonface 颜色为 #d4d0c8 */
+  color: #000000;
+  font-size: 12px;
+  cursor: default;
+}
+
+.context-menu-left-bg {
+  background-color: #0072bc;
+}
+
+table.statusbar {
+  border-right: 1px solid #ffffee;
+  border-bottom: 1px solid #ffffee;
+  background-color: #ffffee;
+}
+
+td.statusbar-btn-off {
+  padding: 1px 5px;
+  border: 1px outset;
+  cursor: pointer;
+}
+
+td.statusbar-btn-on {
+  padding: 1px 5px;
+  border: 1px inset;
+  background-color: #eeeeee;
+}

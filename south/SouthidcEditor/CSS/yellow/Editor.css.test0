@@ -1,0 +1,140 @@
+.yToolbar {
+    display: flex;
+    background-color: #FFFFEE;
+    border-right: 1px solid #FFFFEE;
+    height: 27px;
+    align-items: center;
+    overflow-x: auto;
+}
+
+.Btn, .TBSep, .TBGen, .TBHandle {
+    position: relative;
+    margin: 0 2px;
+}
+
+.Btn {
+    background-color: #FFFFEE;
+    border: 1px solid #FFFFEE;
+    height: 21px;
+    width: 21px;
+}
+
+.TBSep {
+    border-left: 1px solid #C5D5FC;
+    border-right: 1px solid #FFFFEE;
+    font-size: 0;
+    height: 20px;
+    width: 1px;
+}
+
+.TBGen {
+    font: 8pt arial,sans-serif;
+    height: 20px;
+}
+
+.TBHandle {
+    background-color: #FFFFEE;
+    border: 1px solid #FFFFEE;
+    font-size: 1px;
+    height: 20px;
+    width: 3px;
+}
+
+.Ico {
+    height: 20px;
+    width: 20px;
+}
+
+.BtnMouseOverUp,
+.BtnMouseOverDown {
+    background-color: #C9D3EF;
+    border: 1px solid #255DF3;
+    height: 21px;
+    width: 21px;
+}
+
+.BtnDown {
+    background-color: #DCDCDC;
+    border: 1px solid #FFFFEE;
+    height: 21px;
+    width: 21px;
+}
+
+.IcoDown {
+    height: 21px;
+    width: 21px;
+}
+
+.IcoDownPressed {
+    margin: 1px;
+}
+
+body {
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+select {
+    background: #FFFFEE;
+    font: 8pt verdana,arial,sans-serif;
+}
+
+table {
+    position: relative;
+}
+
+.Composition {
+    background-color: #cccccc;
+    position: relative;
+}
+
+.ContextMenuDiv {
+    border-top: #d4d0c8 1px solid;
+    border-left: #d4d0c8 1px solid;
+    border-bottom: #808080 1px solid;
+    border-right: #808080 1px solid;
+}
+
+.ContextMenuTable {
+    border-top: #ffffff 1px solid;
+    border-left: #ffffff 1px solid;
+    border-bottom: #808080 1px solid;
+    border-right: #808080 1px solid;
+}
+
+.ContextMenuMouseOver {
+    background-color: #0078d7;
+    color: #ffffff;
+    font-size: 12px;
+    cursor: default;
+}
+
+.ContextMenuMouseOut {
+    background-color: #d4d0c8;
+    color: #000000;
+    font-size: 12px;
+    cursor: default;
+}
+
+.ContextMenuLeftBg {
+    background-color: #0072BC;
+}
+
+table.StatusBar {
+    border-right: #FFFFEE 1px solid;
+    border-bottom: #FFFFEE 1px solid;
+    background-color: #FFFFEE;
+}
+
+td.StatusBarBtnOff {
+    padding: 1px 5px;
+    border: 1px outset;
+    cursor: pointer;
+}
+
+td.StatusBarBtnOn {
+    padding: 1px 5px;
+    border: 1px inset;
+    background-color: #EEEEEE;
+}

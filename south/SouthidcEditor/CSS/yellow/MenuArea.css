@@ -1,0 +1,29 @@
+BODY {margin:0px;border:0px}
+TD {font-size:9pt;font-family:"san-serif,Verdana,Arial"}
+
+TABLE.Menu {
+    border-top: #FFFFFF 1px solid;
+    border-left: #FFFFFF 1px solid;
+    border-bottom: #808080 1px solid;
+    border-right: #808080 1px solid;
+    background-color: #0072BC;
+}
+TD.RightBg {
+    background-color: #D4D0C8;
+}
+TD.MouseOver {
+    background-color: #0078D7;
+    color: #FFFFFF;
+    cursor: default;
+}
+TD.MouseOut {
+    background-color: #D4D0C8;
+    color: #000000;
+    cursor: default;
+}
+TD.HrShadow {
+    background-color: #808080;
+}
+TD.HrHighLight {
+    background-color: #FFFFFF;
+}
